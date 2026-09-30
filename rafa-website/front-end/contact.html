@@ -1,0 +1,414 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | RoofPro</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="container nav-container">
+
+        <a href="index.html" class="logo">
+            <span>ROOF</span>PRO
+        </a>
+
+        <button class="menu-toggle" id="menuToggle">
+            ☰
+        </button>
+
+        <nav class="navbar" id="navbar">
+
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="index.html#projects">Projects</a>
+            <a href="index.html#gallery">Gallery</a>
+            <a href="contact.html" class="active">Contact</a>
+
+            <a href="#quote" class="nav-button">
+                Get Quote
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<section class="page-banner">
+
+    <div class="container">
+
+        <span>CONTACT US</span>
+
+        <h1>
+            Get A Free Quote
+        </h1>
+
+        <p>
+            Tell us what you need and our team will contact you.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section class="section" id="quote">
+
+    <div class="container contact-grid">
+
+
+        <!-- CONTACT DETAILS -->
+
+        <div class="contact-info">
+
+            <span class="section-label">
+                GET IN TOUCH
+            </span>
+
+            <h2>
+                Let's Talk About Your Roofing Project
+            </h2>
+
+            <p>
+                Share your requirements with us. We'll get back to you
+                with the appropriate product information and quotation.
+            </p>
+
+
+            <div class="contact-item">
+
+                <div class="contact-icon">
+                    📍
+                </div>
+
+                <div>
+
+                    <strong>
+                        Address
+                    </strong>
+
+                    <p>
+                        Chennai, Tamil Nadu, India
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-item">
+
+                <div class="contact-icon">
+                    📞
+                </div>
+
+                <div>
+
+                    <strong>
+                        Phone
+                    </strong>
+
+                    <p>
+                        +91 98765 43210
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-item">
+
+                <div class="contact-icon">
+                    ✉️
+                </div>
+
+                <div>
+
+                    <strong>
+                        Email
+                    </strong>
+
+                    <p>
+                        info@roofpro.com
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <a
+                href="https://wa.me/919876543210"
+                target="_blank"
+                class="whatsapp-large">
+
+                💬 Chat With Us On WhatsApp
+
+            </a>
+
+        </div>
+
+
+        <!-- FORM -->
+
+        <div class="contact-form-container">
+
+            <form id="enquiryForm">
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Full Name *
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="phone">
+                            Phone Number *
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="Enter phone number"
+                            required>
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter email">
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="location">
+                            Location
+                        </label>
+
+                        <input
+                            type="text"
+                            id="location"
+                            name="location"
+                            placeholder="City / Area">
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="product">
+                        Product Required
+                    </label>
+
+                    <select id="product"
+                            name="product">
+
+                        <option value="">
+                            Select Product
+                        </option>
+
+                        <option>
+                            Colour Coated Roofing Sheet
+                        </option>
+
+                        <option>
+                            GI Roofing Sheet
+                        </option>
+
+                        <option>
+                            Polycarbonate Sheet
+                        </option>
+
+                        <option>
+                            Industrial Metal Sheet
+                        </option>
+
+                        <option>
+                            Insulated Roofing Panel
+                        </option>
+
+                        <option>
+                            Roofing Accessories
+                        </option>
+
+                        <option>
+                            Other
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="area">
+                        Approximate Roof Area
+                    </label>
+
+                    <input
+                        type="text"
+                        id="area"
+                        name="area"
+                        placeholder="Example: 1500 sq.ft">
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="message">
+                        Your Requirement
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="Tell us about your roofing requirement..."></textarea>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="btn btn-primary form-submit">
+
+                    Submit Enquiry
+
+                </button>
+
+
+                <p id="formMessage"
+                   class="form-message">
+                </p>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+        <div class="footer-about">
+
+            <a href="index.html" class="logo footer-logo">
+                <span>ROOF</span>PRO
+            </a>
+
+            <p>
+                Quality roofing sheets and roofing solutions.
+            </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>Quick Links</h3>
+
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>Products</h3>
+
+            <a href="products.html">Colour Coated Sheets</a>
+            <a href="products.html">GI Sheets</a>
+            <a href="products.html">Polycarbonate</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>Contact</h3>
+
+            <p>📍 Chennai, Tamil Nadu</p>
+            <p>📞 +91 98765 43210</p>
+            <p>✉️ info@roofpro.com</p>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <div class="container">
+
+            <p>
+                © 2026 RoofPro. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
+```

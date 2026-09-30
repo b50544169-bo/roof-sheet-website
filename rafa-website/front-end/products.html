@@ -1,0 +1,454 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Products | RoofPro</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="container nav-container">
+
+        <a href="index.html" class="logo">
+            <span>ROOF</span>PRO
+        </a>
+
+        <button class="menu-toggle" id="menuToggle">
+            ☰
+        </button>
+
+        <nav class="navbar" id="navbar">
+
+            <a href="index.html">Home</a>
+            <a href="products.html" class="active">Products</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#projects">Projects</a>
+            <a href="index.html#gallery">Gallery</a>
+            <a href="contact.html">Contact</a>
+
+            <a href="contact.html" class="nav-button">
+                Get Quote
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<section class="page-banner">
+
+    <div class="container">
+
+        <span>OUR PRODUCTS</span>
+
+        <h1>
+            Roofing Products
+        </h1>
+
+        <p>
+            Quality roofing solutions for every type of project.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section class="section">
+
+    <div class="container">
+
+        <div class="filter-buttons">
+
+            <button class="filter-btn active"
+                    data-filter="all">
+                All
+            </button>
+
+            <button class="filter-btn"
+                    data-filter="colour">
+                Colour Coated
+            </button>
+
+            <button class="filter-btn"
+                    data-filter="gi">
+                GI Sheets
+            </button>
+
+            <button class="filter-btn"
+                    data-filter="poly">
+                Polycarbonate
+            </button>
+
+            <button class="filter-btn"
+                    data-filter="accessories">
+                Accessories
+            </button>
+
+        </div>
+
+
+        <div class="product-grid product-page-grid">
+
+
+            <!-- Colour coated -->
+
+            <div class="product-card filter-item"
+                 data-category="colour">
+
+                <div class="product-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=900&q=80"
+                        alt="Colour coated roofing sheet">
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-tag">
+                        COLOUR COATED
+                    </span>
+
+                    <h3>
+                        Colour Coated Roofing Sheet
+                    </h3>
+
+                    <p>
+                        Durable coated roofing sheet available in
+                        different colours and profiles.
+                    </p>
+
+                    <a
+                        href="contact.html?product=Colour%20Coated%20Roofing%20Sheet"
+                        class="product-link">
+                        Enquire Now →
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- GI -->
+
+            <div class="product-card filter-item"
+                 data-category="gi">
+
+                <div class="product-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=900&q=80"
+                        alt="GI roofing sheet">
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-tag">
+                        GI
+                    </span>
+
+                    <h3>
+                        GI Roofing Sheet
+                    </h3>
+
+                    <p>
+                        Galvanized roofing sheets for industrial and
+                        commercial buildings.
+                    </p>
+
+                    <a
+                        href="contact.html?product=GI%20Roofing%20Sheet"
+                        class="product-link">
+                        Enquire Now →
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Polycarbonate -->
+
+            <div class="product-card filter-item"
+                 data-category="poly">
+
+                <div class="product-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=900&q=80"
+                        alt="Polycarbonate sheet">
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-tag">
+                        POLYCARBONATE
+                    </span>
+
+                    <h3>
+                        Polycarbonate Roofing Sheet
+                    </h3>
+
+                    <p>
+                        Lightweight roofing solution designed for
+                        natural lighting and modern spaces.
+                    </p>
+
+                    <a
+                        href="contact.html?product=Polycarbonate%20Sheet"
+                        class="product-link">
+                        Enquire Now →
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Accessories -->
+
+            <div class="product-card filter-item"
+                 data-category="accessories">
+
+                <div class="product-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=900&q=80"
+                        alt="Roofing accessories">
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-tag">
+                        ACCESSORIES
+                    </span>
+
+                    <h3>
+                        Roofing Accessories
+                    </h3>
+
+                    <p>
+                        Screws, ridge caps, flashing and other
+                        roofing installation accessories.
+                    </p>
+
+                    <a
+                        href="contact.html?product=Roofing%20Accessories"
+                        class="product-link">
+                        Enquire Now →
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Metal Deck -->
+
+            <div class="product-card filter-item"
+                 data-category="gi">
+
+                <div class="product-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=900&q=80"
+                        alt="Metal roofing sheet">
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-tag">
+                        INDUSTRIAL
+                    </span>
+
+                    <h3>
+                        Industrial Metal Sheet
+                    </h3>
+
+                    <p>
+                        Roofing solution for warehouses, factories and
+                        large industrial buildings.
+                    </p>
+
+                    <a
+                        href="contact.html?product=Industrial%20Metal%20Sheet"
+                        class="product-link">
+                        Enquire Now →
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- PUF -->
+
+            <div class="product-card filter-item"
+                 data-category="colour">
+
+                <div class="product-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=80"
+                        alt="PUF roofing panel">
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-tag">
+                        INSULATED
+                    </span>
+
+                    <h3>
+                        Insulated Roofing Panel
+                    </h3>
+
+                    <p>
+                        Insulated panels suitable for temperature-controlled
+                        and commercial applications.
+                    </p>
+
+                    <a
+                        href="contact.html?product=Insulated%20Roofing%20Panel"
+                        class="product-link">
+                        Enquire Now →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="cta-section">
+
+    <div class="container cta-content">
+
+        <div>
+
+            <span>
+                NEED HELP CHOOSING?
+            </span>
+
+            <h2>
+                Talk To Our Roofing Experts
+            </h2>
+
+        </div>
+
+        <a href="contact.html" class="btn btn-light">
+            Contact Us
+        </a>
+
+    </div>
+
+</section>
+
+
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+        <div class="footer-about">
+
+            <a href="index.html" class="logo footer-logo">
+                <span>ROOF</span>PRO
+            </a>
+
+            <p>
+                Quality roofing sheets and roofing solutions.
+            </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>Quick Links</h3>
+
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html">Contact</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>Products</h3>
+
+            <a href="products.html">Colour Coated Sheets</a>
+            <a href="products.html">GI Sheets</a>
+            <a href="products.html">Polycarbonate</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>Contact</h3>
+
+            <p>📍 Chennai, Tamil Nadu</p>
+            <p>📞 +91 98765 43210</p>
+            <p>✉️ info@roofpro.com</p>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <div class="container">
+
+            <p>
+                © 2026 RoofPro. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<a
+    class="whatsapp-button"
+    href="https://wa.me/919876543210"
+    target="_blank">
+
+    💬
+
+</a>
+
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
+```
